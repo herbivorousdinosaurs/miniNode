@@ -1,4 +1,6 @@
 const mariadb = require("mariadb");
+const dotenv = require("dotenv");
+dotenv.config();
 
 // svc.sel4.cloudtype.app:30179
 // host:port
@@ -30,3 +32,10 @@ const connection = () => {
       return pool;
       
 };
+
+module.exports = connection;
+
+//docker
+//aws
+//git actions
+//git pakages

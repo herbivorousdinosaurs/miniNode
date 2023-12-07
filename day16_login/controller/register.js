@@ -4,9 +4,7 @@ const pool = connection();
 // svc.sel4.cloudtype.app:30179
 // host:port
 // host : svc.sel4.cloudtype.app
-// port : 30179
-
-const pool = require("../")
+// port : 31178
 
 
 const idChecked = (req, res, next, value) => {
